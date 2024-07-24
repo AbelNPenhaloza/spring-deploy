@@ -16,7 +16,7 @@ public class HelloController {
         System.out.println("message = " + message);
         return "Hello World que tal vamos en 2024 !!!!!";
     }
-    @GetMapping("/bootstrap")
+    @GetMapping("/")
     public String bootstrap(){
         return """
                 <!doctype html>
